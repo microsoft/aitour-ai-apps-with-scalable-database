@@ -4,7 +4,7 @@ This repo is a companion to this session at Microsoft AI Tour, a worldwide tour 
 
 > Learn more about Microsoft AI Tour on the official website.
 
-![Session cover image with a bright "A" in 3D over a yellow and green abstract background.](img/session-cover.png)
+![Session cover image with a bright "AI" text in 3D over a blue and purple abstract background.](img/session-cover.png)
 
 ## Session Description
 
