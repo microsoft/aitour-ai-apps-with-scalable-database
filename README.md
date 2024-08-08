@@ -18,7 +18,7 @@ Introducing a new era of cloud databases, an era where databases are built and t
 
 - Learn how to build and deploy intelligent applications with Azure Cosmos DB, Azure SQL Database, and Azure Database for PostgreSQL.
 
-
+![Illustration outlining key benefits and features of Azure SQL Database, Azure Cosmos DB, and Azure Database for PostgreSQL.](img/azure-db-doodle.png)
 
 ## Technology Used
 
