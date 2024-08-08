@@ -1,4 +1,4 @@
-# Power a new era of apps. At any scale. Anywhere.
+# Next gen AI apps with databases at scale anywhere
 
 This repo is a companion to this session at Microsoft AI Tour, a worldwide tour of events.
 
