@@ -26,10 +26,28 @@ Signup for the [DiskANN Preview](https://aka.ms/aitour-data-cosmosdb-diskannprev
 # Azure Database for PostgreSQL
 
 
-### Documentation
+- **750 hours** of **Burstable B1MS** instance
+- **32 GB** storage / **32 GB** backup storage
 
-### Demos and Code Samples
-- [**Session Demo**: RAG on PostgreSQL - Hybrid search on the PostgreSQL database table, using the pgvector extension]()
+## Documentation
+
+**AI with PostgreSQL**
+- [Enable and use pgvector on Azure Database for PostgreSQL](https://aka.ms/aitour-data-postgresql-pgvector)
+- [Azure AI extension on Azure Database for PostgreSQL](https://aka.ms/aitour-data-postgresql-azure-ai)
+- [Build AI Apps with Azure Database for PostgreSQL - Microsoft Learn](https://aka.ms/aitour-data-postgresql-build-ai-apps)
+
+**PostgreSQL Product Documentation**
+- [Azure Database for PostgreSQL - Flexible Server documentation](https://aka.ms/aitour-data-postgresql-docs)
+- [Migrate from PostgreSQL to Azure Database for PostgreSQL](https://aka.ms/aitour-data-postgresql-migration)
+- [Azure Database for PostgreSQL - Microsoft Learn](https://aka.ms/aitour-data-postgresql-learn)
+
+## Videos from the Azure Database for PostgreSQL Team
+
+- [Product Demo: Azure PostgreSQL for your AI app's backend](https://aka.ms/aitour-data-postgresql-product-demo)
+
+## Demos and Code Samples
+
+- [**Session Demo**: RAG on PostgreSQL - Hybrid search on the PostgreSQL database table, using the pgvector extension](https://aka.ms/aitour-data-postgresql-demo)
 
 # Azure SQL Database
 
