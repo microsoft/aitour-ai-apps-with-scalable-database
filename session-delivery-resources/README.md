@@ -21,12 +21,13 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](presentations.md) | Slides |
-| PPT Recording     | - [Presentation](https://globaleventcdn.blob.core.windows.net/assets/data/data10/DATA10.mp4) | Video Recording of the PowerPoint slides with no audio |
-| Videos            | - [Microsoft Ignite Orlando Recording](https://myignite.techcommunity.microsoft.com/sessions/84354) | Example Presetations of this Session |
-| Demos             | - [Demo 1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | Additional Demo Content | 
-| Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
-| Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
+| PowerPoint        | - [Presentation](../EN-US_BRK461_Tech.pdf) | Slides |
+| PPT Recording     | - [Presentation]() | Video Recording of the PowerPoint slides with no audio |
+| Demos             | - [Links to demos](#demos) | Additional Demo Content | 
+| Demo Recording for Cosmos DB           | - [RAG with Azure Cosmos DB](https://aka.ms/AAs4l8v) | Recording of Demo 1 | 
+| Demo Recording for PostgreSQL         | - [RAG with Azure Database for PostgreSQL]() | Recording of Demo 2 | 
+| Demo Recording for Azure SQL           | - [Integrated RAG with Azure SQL Database](https://aka.ms/AAs50ne) | Recording of Demo 3 | 
+
 
 
 ## Get Started
@@ -58,7 +59,7 @@ The presentation slides for this session have presenter notes in each part of th
 
 
 
-## Deployment / Preparation / Demos
+## Demos
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
