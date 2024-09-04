@@ -19,9 +19,13 @@ You should now have the following resources deployed:
     - Azure AI Search resource named `aitour-search-XXXXX`
     - Azure Open AI Service named `aitour-aoai-XXXXX` with
         - Deployed GPT 3.5 Turbo model named `completions`
-        - Deployed `text-embedding-ada-002` model named `embedddings`
+        - Deployed `text-embedding-ada-002` model named `embeddings`
 
 ### 2. Add data and configure services
+
+- 
+- pip install -r requirements.txt
+- Add service keys to .env file
 
 Run the python script to:
 - Populate the `reviews_demo` database with a table named `customer_reviews` with 99 records.
@@ -80,7 +84,7 @@ We used natural language to describe what we're looking for, and Copilot describ
 This transforms the way we interact with our data, making it more accessible and intuitive.
 ```
 
-### 4. Transition to from Data Explorer to Azure AI Search
+### 4. Transition to from Query Editor to Azure AI Search
 
 ```
 Right here in the portal, there’s a button to set up Azure AI Search. With just a few clicks, we can connect our SQL data to Azure AI Search, enriching our database with AI capabilities.
