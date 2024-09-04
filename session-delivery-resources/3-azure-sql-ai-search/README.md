@@ -92,10 +92,66 @@ We already have an index set up so let's take a look in Azure AI Search.
 
 ### 4. Move on to Azure AI Search - Indexes Blade
 
+#### (Optional) - Search Explorer
+
+```
+Here's our data, let's use the search explorer to find highly rated products, we define as a score greater than 4.
+```
+
+**Go to View > JSON View and paste in the query**
+
+```
+{
+  "search": "{   \"search\": \"top rated products\",   \"searchFields\": \"parent_text, parent_summary\",   \"select\": \"id, parent_product_id, parent_text, parent_summary, parent_score\",   \"filter\": \"parent_score gt 4\",   \"orderby\": \"parent_score desc\" }",
+  "answers": "extractive|count-3",
+  "captions": "extractive",
+  "queryLanguage": "en-US",
+  "semanticConfiguration": "my-semantic-config",
+  "queryType": "semantic",
+  "vectorQueries": [
+    {
+      "kind": "text",
+      "text": "{   \"search\": \"top rated products\",   \"searchFields\": \"parent_text, parent_summary\",   \"select\": \"id, parent_product_id, parent_text, parent_summary, parent_score\",   \"filter\": \"parent_score gt 4\",   \"orderby\": \"parent_score desc\" }",
+      "fields": "vector"
+    }
+  ]
+}
+```
 
 
+#### Fields View
+
+```
+The Fields view has all the columns we pulled in from our table. This data is configured so that we each review has unique identifier that can be easily searched and filtered with any tokenization. 
+
+The parent text, summary, and score fields provide additional context and metadata about the scores.
+
+Finally the The vector field stores vector representations of the review text to find semantically similar reviews. We'll look at how these were turned into vectors with skills but first let's talk about how we convert queries into vectors.
+```
+
+### Vector Profiles 
+
+```
+Vectorizers in a vector profile turn texts or images into vector representation during query execution. We use a deployed Azure OpenAI model to find semantically similar reviews.
+
+Let's look at how the data that's stored is turned into vectors with skills.
+``` 
 
 
+### 5. Azure AI Search - Indexes Blade > sql-customer-index-skillset
+
+```
+Skillsets are used during the indexing process to transform the data into vector representations. We're using a vectorization skill to generate embeddings of the review content, and is stored in the vector field. Any new data that is added to the SQL table would also go through the same vectorization process.
+
+There's also another skill in here that splits the document text into chunks based on pages,  making it easier to generate embeddings, perform detailed searches, and the token limits are much easier to manage.
+
+The data we saw in the table has been transformed into vectors and is now a knowledge base of product reviews. We can take it even further in Azure OpenAI Chat Playground and create an interactive experience where users can ask questions about the products and receive detailed, context-aware responses.
+```
+
+
+### 6. Azure OpenAI Studio Chat Playground
+
+#### SETUP
 **NOTE**: The system message will reset when you refresh the page. Consider adding the system message right before you deliver the session.
 
 Add the system message:
@@ -105,6 +161,10 @@ The user is searching for a product matching their query.  Tell the user that af
 ```
 
 
+```
+In the playground I have set up the index as my source (show Add your data configuration) and a system message. Let's try asking a question.
+```
+
 Try these prompts: 
 - `What are customers saying about the dog products?`
 - `What food products do customers like as snacks?`
@@ -112,4 +172,21 @@ Try these prompts:
 
 The citations point to specific reviews from the response.
 
+```
+The data we saw in the table has been transformed into vectors and now is a knowledge base of product reviews in Azure OpenAI Studio. We could take it even further here and transform it into an app (show the Deploy button).
 
+We can achieve all of this programmatically through APIs or directly in the Azure Portal, giving you the flexibility to choose the approach that best fits your needs.
+
+```
+
+### 7. Wrap up
+
+```
+We started with Copilot, using natural language to query our database to help us learn and optimize our database interactions.
+
+Next, we enhanced our search capabilities with Azure AI Search index. 
+
+Finally, we integrated our data with the Azure OpenAI Chat Playground. This allowed us to ask questions about our product reviews and receive detailed, context-aware responses. 
+
+Solid integration across the Microsoft Intelligent Data platform makes your AI transformation much smoother and efficient. 
+```
