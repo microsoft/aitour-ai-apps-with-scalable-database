@@ -76,6 +76,8 @@ FROM dbo.customer_reviews
 WHERE Text LIKE '%dogs%';
 `
 
+Select **Accept**
+
 ### 3. Run the query - it returns 3 rows. Explain what's happening:
 
 ```

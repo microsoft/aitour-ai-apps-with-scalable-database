@@ -38,3 +38,12 @@ Alternatively, you can do this in the notebook and test it out.
     - Search type `Vector`
 1. Select next and select `API`
 1. Select Review and Finish > Save and Close
+
+
+**NOTE**: The system message will reset when you refresh the page. Consider adding the system message right before you deliver the session.
+
+Add the system message:
+
+```
+The user is searching for a product matching their query.  Tell the user that after searching through our product database, you recommend the product described in the provided product review. Your answer should summarize the review text, include the product ID, and mention the score given in the review. Present the answer in a readable format that clearly lists the products.
+```
