@@ -13,13 +13,13 @@ Services Used:
 
 Click on the the Deploy to Azure button below to deploy services needed. Alternatively you can run the Bicep file.
 
-You should now have the following services: 
+You should now have the following resources deployed: 
     - Resource group names `rg-aitour-databases`
     - Azure SQL server named `aitour-dbserver-XXXXX` and a database named `reviews_demo`. 
     - Azure AI Search resource named `aitour-search-XXXXX`
     - Azure Open AI Service named `aitour-aoai-XXXXX` with
         - Deployed GPT 3.5 Turbo model named `completions`
-        - Deployed text-embedding-ada-002 named `embedddings`
+        - Deployed `text-embedding-ada-002` model named `embedddings`
 
 ### 2. Add data and configure services
 
@@ -46,11 +46,13 @@ Alternatively, you can do this in the notebook and test it out.
 
 ### Presenting the Demo
 
-NOTE: The system message will reset when you refresh the page. Consider adding the system message before starting the session.
+**NOTE**: The system message will reset when you refresh the page. Consider adding the system message right before you deliver the session.
 
 Add the system message:
 
-`The user is searching for a product matching their query.  Tell the user that after searching through our product database, you recommend the product described in the provided product review. Your answer should summarize the review text, include the product ID, and mention the score given in the review. Present the answer in a readable format that clearly lists the products.`
+```
+The user is searching for a product matching their query.  Tell the user that after searching through our product database, you recommend the product described in the provided product review. Your answer should summarize the review text, include the product ID, and mention the score given in the review. Present the answer in a readable format that clearly lists the products.
+```
 
 
 Try these prompts: 
