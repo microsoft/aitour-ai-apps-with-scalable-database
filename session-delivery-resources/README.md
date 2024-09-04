@@ -1,17 +1,23 @@
+# Session delivery resources
+
+The following resources are intended for a presenter to learn and deliver the session.
+
 ## How To Use
 
 Welcome,
 
-We're glad you are here and look forward to your delivery of this amazing content. As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
+We're glad you are here and look forward to your delivery of this amazing content! As an experienced presenter, we know you know HOW to present so this guide will focus on WHAT you need to present. It will provide you a full run-through of the presentation created by the presentation design team. 
 
 Along with the video of the presentation, this document will link to all the assets you need to successfully present including PowerPoint slides and demo instructions &
 code.
 
-1.  Read document in its entirety.
-2.  Watch the video presentation
-3.  Ask questions of the Lead Presenter
-
-## File Summary
+1.  Read document in its entirety
+2.  Familiarize with the Session Delivery Resources PowerPoint
+3.  Watch the Session Delivery Resources PPT Recording
+4.  Familiarize with the Session Power Point
+5.  Watch the Session PPT Recording  
+6.  Watch the Session PPT Recording with Commentary 
+7.  Ask questions to the lead presenters
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
@@ -22,43 +28,43 @@ code.
 | Demo Recordings           | - [Data10 - Prequisites](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10_Prerequisites-NoAudio.mp4) | Recording of the Demo Live 1 | 
 | Demo Recordings           | - [Data10 - Demo](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4 ) | Recording of the Demo Live 2 | 
 
+
 ## Get Started
 
-This training repository is divided in to the following sections:
+This collection of Session Delivery Resources is divided in to the following sections:
 
-| [Slides](#slides) | [Demos](demos/README.md) | [Deployment](deployment/README.md) | 
+| [Slides](#slides) | [Timing](#timing) | [Demos](#demos) | 
 |-------------------|---------------------------|--------------------------------------
-| 28 slides - 30 minutes| 1 demos - 15 minutes | Demo setup
+| ~61 slides - 45 minutes delivery time | Timing breakdown for all presentation topics | Demo notes
+
 
 ## Slides
 
-The [slides](presentations.md) have presenter notes in each part of the session
+The presentation slides for this session have presenter notes in each part of the session.  We recommend to refer to these during your preparation and you can also refer to the notes using a second monitor during your live delivery of the presentation at AI Tour.
 
 ### Timing
 
 | Time        | Description 
 --------------|-------------
-0:00 - 5:00   | Intro to the session 
-5:00 - 15:00  | Why Modern Data Warehousing
-15:00 - 20:00 | Building the Modern data warehouse
-20:00 - 35:00 | Designing a modern data warehouse solution
-35:00 - 40:00 | The evolution of cloud scale analytics
-40:00 - 45:00 | Session review
+0:00 - 1:00   | Introduction: Data is the fuel that powers AI
+2:00 - 3:00   | Introduction to the Microsoft Intelligent Data Platform
+3:00 - 5:00   | Intelligent
+5:00 - 15:00  | Azure Cosmos DB & Demo
+15:00 - 25:00 | Azure Database for PostgreSQL & Demo
+25:00 - 30:00 | Integrated & Integrations in Microsoft Fabric
+30:00 - 40:00 | Azure SQL Database & Demo
+40:00 - 42:00 | Trusted
+42:00 - 45:00 | Closing
 
-## Deployment / Preparation
+
+
+## Deployment / Preparation / Demos
 
 >**What's Here?** Deploying the demo environment on Azure - including the prerequisites.
 
-[Instructions and prerequisites are outlined here](deployment/README.md). 
+Instructions and prerequisites are outlined in each demo: 
+- [Azure Cosmos DB](1-cosmos-db-nosql)
+- [Azure Database for PostgreSQL](2-postgres-rag)
+- [Azure SQL Database](3-azure-sql-ai-search)
 
-
-## Demos
-
-> **What's Here?** Pre-delivery preparation, stage ready videos, required files (such as JSON templates), and walk-through videos
-
-Detailed explanations of each demonstration associated with this presentation can be found in this section. There are 3 "live from stage" technical demonstrations that utilize a number of tools both in and out of Azure. [You can get a high level overview of the tools and how we will be using them here](demos/README.md).
-
-| Demo 	                                                                                               | Minutes | Video |
--------------------------------------------------------------------------------------------------------|---------|----------------- | 
-|  [1 - Exploring a Modern Data Warehouse](demos/README.md#demo-1---exploring-a-modern-data-warehouse) | 15       | [Link](https://globaleventcdn.blob.core.windows.net/assets/data/data10/Data10-Demo-NoAudio.mp4) |
-
+All demos are also provided as recordings inside the presentation deck.
