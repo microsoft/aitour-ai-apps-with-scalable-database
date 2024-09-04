@@ -14,12 +14,12 @@ Services Used:
 Click on the the Deploy to Azure button below to deploy services needed. Alternatively you can run the Bicep file.
 
 You should now have the following resources deployed: 
-    - Resource group names `rg-aitour-databases`
-    - Azure SQL server named `aitour-dbserver-XXXXX` and a database named `reviews_demo`. 
-    - Azure AI Search resource named `aitour-search-XXXXX`
-    - Azure Open AI Service named `aitour-aoai-XXXXX` with
-        - Deployed GPT 3.5 Turbo model named `completions`
-        - Deployed `text-embedding-ada-002` model named `embeddings`
+  - Resource group names `rg-aitour-databases`
+  - Azure SQL server named `aitour-dbserver-XXXXX` and a database named `reviews_demo`. 
+  - Azure AI Search resource named `aitour-search-XXXXX`
+  - Azure Open AI Service named `aitour-aoai-XXXXX` with
+    - Deployed GPT 3.5 Turbo model named `completions`
+    - Deployed `text-embedding-ada-002` model named `embeddings`
 
 ### 2. Add data and configure services
 
@@ -135,7 +135,7 @@ The parent text, summary, and score fields provide additional context and metada
 Finally the The vector field stores vector representations of the review text to find semantically similar reviews. We'll look at how these were turned into vectors with skills but first let's talk about how we convert queries into vectors.
 ```
 
-### Vector Profiles 
+#### Vector Profiles 
 
 ```
 Vectorizers in a vector profile turn texts or images into vector representation during query execution. We use a deployed Azure OpenAI model to find semantically similar reviews.
