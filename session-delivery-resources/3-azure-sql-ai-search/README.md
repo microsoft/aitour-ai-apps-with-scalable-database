@@ -7,7 +7,7 @@ Services Used:
 - Azure AI Search
 - Azure OpenAI Service
 
-## Setup:
+## Setup
 
 ### 1. Deploy
 
@@ -44,7 +44,57 @@ Alternatively, you can do this in the notebook and test it out.
 1. Select next and select `API`
 1. Select Review and Finish > Save and Close
 
-### Presenting the Demo
+## Presenting the Demo
+
+### Prepare
+
+It's recommended to have 3 tabs open in your browser for this demo:
+    - Azure Portal with Azure SQL Database Query Editor for the `customer_reviews` table selected
+    - Azure Portal with Azure AI Search resource open to Indexes > `sql-customer-index`
+    - Azure OpenAI Studio Chat Playground (make sure your Index is selected and system message added)
+
+
+### 1. Describe the scenario:
+
+```
+Let's walk through how Azure SQL seamlessly integrates with Azure AI Services to create a Copilot for product suggestions based on customer reviews. 
+
+In the database we have a collection of a variety of product reviews, let's explore the data with Copilot. We're curious to about any reviews for pet products, like a dog.
+```
+
+### 2. Use Copilot in Query editor to search for `Find all the product reviews that mention dogs`
+
+It should return a this query: 
+
+`
+SELECT *
+FROM dbo.customer_reviews
+WHERE Text LIKE '%dogs%';
+`
+
+### 3. Run the query - it returns 3 rows. Explain what's happening:
+
+```
+We used natural language to describe what we're looking for, and Copilot describes why it generated this SQL query. This is great for situations when you're unsure how to put together a complex query or when you need to optimize your query. Copilot is designed to understand the context of your database to generate accurate queries by using your database metadata so things like tables, column names, primary keys, and foreign keys are taken into consideration when generating a query.
+
+This transforms the way we interact with our data, making it more accessible and intuitive.
+```
+
+### 4. Transition to from Data Explorer to Azure AI Search
+
+```
+Right here in the portal, there’s a button to set up Azure AI Search. With just a few clicks, we can connect our SQL data to Azure AI Search, enriching our database with AI capabilities.
+
+Azure SQL Database has vector search capabilities all on its own, but with Azure AI search we can apply cognitive skills to our data or extract key information to make our data work smarter.
+
+We already have an index set up so let's take a look in Azure AI Search.
+```
+
+### 4. Move on to Azure AI Search - Indexes Blade
+
+
+
+
 
 **NOTE**: The system message will reset when you refresh the page. Consider adding the system message right before you deliver the session.
 

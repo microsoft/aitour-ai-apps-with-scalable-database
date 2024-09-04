@@ -25,4 +25,5 @@ You should now have the following resources deployed:
         - Deployed GPT 4o Turbo model named `gpt-4o`
         - Deployed `text-embedding-3-large` model named `text-3-large`
 
-### Presenting the Demo
+## Presenting the Demo
+
