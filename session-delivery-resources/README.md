@@ -49,10 +49,10 @@ The presentation slides for this session have presenter notes in each part of th
 0:00 - 1:00   | Introduction: Data is the fuel that powers AI
 2:00 - 3:00   | Introduction to the Microsoft Intelligent Data Platform
 3:00 - 5:00   | Intelligent
-5:00 - 15:00  | Azure Cosmos DB & Demo
-15:00 - 25:00 | Azure Database for PostgreSQL & Demo
-25:00 - 30:00 | Integrated & Integrations in Microsoft Fabric
-30:00 - 40:00 | Azure SQL Database & Demo
+5:00 - 15:00  | Azure Cosmos DB (5) & Demo (5)
+15:00 - 25:00 | Azure Database for PostgreSQL (5) & Demo (5) 
+25:00 - 30:00 | Integrated & Integrations in Microsoft Fabric (5)
+30:00 - 40:00 | Azure SQL Database (5) & Demo (5)
 40:00 - 42:00 | Trusted
 42:00 - 45:00 | Closing
 
