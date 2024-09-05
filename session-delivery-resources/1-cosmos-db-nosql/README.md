@@ -13,7 +13,9 @@ Services Used:
 
 ### 1. Clone repo and configure for RAG
 
-To enable rag in the application: Clone the repo, and open up the `src > services > ChatService.cs` file. 
+[Clone the repo](https://github.com/AzureCosmosDB/cosmosdb-nosql-copilot).
+
+**To enable rag in the application**: Clone the repo, and open up the `src > services > ChatService.cs` file. 
 
 Replace it with the following:
 
