@@ -1,22 +1,20 @@
 ## Setup
 
-### 1. Deploy
+### 1. Create Azure Resources
 
-Click on the the Deploy to Azure button below to deploy services needed. Alternatively you can run the Bicep file.
-
-You should now have the following resources deployed: 
-    - Resource group names `rg-aitour-databases`
-    - Azure SQL server named `aitour-dbserver-XXXXX` and a database named `reviews_demo`. 
-    - Azure AI Search resource named `aitour-search-XXXXX`
-    - Azure Open AI Service named `aitour-aoai-XXXXX` with
-        - Deployed GPT 3.5 Turbo model named `completions`
+Create the following resources: 
+    - Resource group:
+    - Azure SQL server and database, basic tier and be sure to `allow all azure services` to access the database in network settings.
+    - Azure AI Search resource
+    - Azure Open AI Service with
+        - Deployed `GPT 3.5 Turbo` model named `completions`
         - Deployed `text-embedding-ada-002` model named `embeddings`
 
 ### 2. Add data and configure services
 
 - 
 - pip install -r requirements.txt
-- Add service keys to .env file
+- Add resource keys to .env file
 
 Run the python script to:
 - Populate the `reviews_demo` database with a table named `customer_reviews` with 99 records.
