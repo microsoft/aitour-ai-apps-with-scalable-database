@@ -21,11 +21,11 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](../EN-US_BRK461_Tech.pdf) | Slides |
-| PPT Recording     | - [Presentation](https://aitourassetstore.blob.core.windows.net/assets/BRK461%20Next%20gen%20AI%20apps%20with%20databases%20at%20scale%20anywhere/Power%20the%20next%20generation%20of%20AI%20apps%20with%20databases%20at%20scale%20anywhere_V1.0.mp4) | Video Recording of the PowerPoint slides |
+| PowerPoint        | - [Presentation](https://aka.ms/AAs6qfn) | Slides |
+| PPT Recording     | - [Presentation](https://aka.ms/AAs5507) | Video Recording of the PowerPoint slides |
 | Demos             | - [Links to demos](#demos) | Additional Demo Content | 
 | Demo Recording for Cosmos DB           | - [RAG with Azure Cosmos DB](https://aka.ms/AAs4l8v) | Recording of Demo 1 | 
-| Demo Recording for PostgreSQL          | - [RAG with Azure Database for PostgreSQL](https://aitourassetstore.blob.core.windows.net/assets/BRK461%20Next%20gen%20AI%20apps%20with%20databases%20at%20scale%20anywhere/Power%20the%20next%20generation%20of%20AI%20apps%20with%20databases%20at%20scale%20anywhere%20-%20Azure%20Database%20for%20PostgreSQL%20Demo_V1.0.mp4) | Recording of Demo 2 | 
+| Demo Recording for PostgreSQL          | - [RAG with Azure Database for PostgreSQL](https://aka.ms/AAs4plk) | Recording of Demo 2 | 
 | Demo Recording for Azure SQL           | - [Integrated RAG with Azure SQL Database](https://aka.ms/AAs50ne) | Recording of Demo 3 | 
 
 
