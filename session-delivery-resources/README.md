@@ -21,7 +21,7 @@ code.
 
 | Resources          | Links                            | Description |
 |-------------------|----------------------------------|-------------------|
-| PowerPoint        | - [Presentation](https://aka.ms/AAs6qfn) | Slides |
+| PowerPoint        | - [Presentation](https://aka.ms/AAs6qfn) | Slides, [Additional Languages](https://github.com/microsoft/aitour-ai-apps-with-scalable-database/tree/main/session-delivery-resources#slides-in-additional-languages) |
 | PPT Recording     | - [Presentation](https://aka.ms/AAs5507) | Video Recording of the PowerPoint slides |
 | Demos             | - [Links to demos](#demos) | Additional Demo Content | 
 | Demo Recording for Cosmos DB           | - [RAG with Azure Cosmos DB](https://aka.ms/AAs4l8v) | Recording of Demo 1 | 
