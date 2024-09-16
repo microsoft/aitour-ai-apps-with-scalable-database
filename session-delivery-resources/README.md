@@ -57,7 +57,11 @@ The presentation slides for this session have presenter notes in each part of th
 40:00 - 42:00 | Trusted
 42:00 - 45:00 | Closing
 
-
+### Slides in additional languages
+| Language | Last updated | 
+|------------------- | ---- |
+| [Spanish](https://aka.ms/AAs8rcg) | 2024.09.16 | 
+| [Portuguese](https://aka.ms/AAs96i5) | 2024.09.16| 
 
 ## Demos
 
@@ -69,3 +73,10 @@ Instructions and prerequisites are outlined in each demo:
 - [Azure SQL Database](3-azure-sql-ai-search)
 
 All demos are also provided as recordings inside the presentation deck.
+
+## Change Log
+Here is a log of the changes made to this file:
+
+| Date       | Changes |
+|------------|---------|
+| 2024.09.16 | Added Change log, Additional language section with Spanish and Portuguese PowerPoint slides |
