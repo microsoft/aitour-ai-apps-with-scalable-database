@@ -28,10 +28,11 @@ Introducing a new era of cloud databases, an era where databases are built and t
 
 
 ## Additional Resources and Continued Learning
+Access the slides to this presentationn [here](https://aka.ms/AAs6qfn)
 
-You can find additional resources, including the slides of the presentation, [here](./SESSION_RESOURCE.md).
+You can find additional resources about the technologies used [here](./SESSION_RESOURCE.md).
 
-If you will present this talk, you can find the [trainer resources here](./train-the-trainer/README.md). 
+If you will present this talk, you can find the [trainer resources here](./session-delivery-resources/README.md). 
 
 ## Content Owners
 
