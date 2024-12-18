@@ -8,7 +8,7 @@ This repo is a companion to this session at Microsoft AI Tour, a worldwide tour 
 
 ## Session Description
 
-Introducing a new era of cloud databases, an era where databases are built and tuned for AI apps with hyperscale performance, built-in intelligence, Copilot assistants, integrated vector database, and Azure AI Search integration to set the foundation for innovating with AI and make app development easy. Learn how to transform business apps with AI, extend your on-premises investments and modernize your workloads for growth.
+Introducing a new era of cloud databases that are designed and optimized for AI applications with hyperscale performance, built-in intelligence, Copilot assistants, integrated vector capabilities, and seamless integrations. Learn how to build and deploy intelligent applications with Azure Cosmos DB, Azure SQL Database, and Azure Database for PostgreSQL. Discover how this the Microsoft Intelligent Data Platform can transform your business applications with AI, simplify app development, extend your on-premises investments, and modernize your workloads for growth.
 
 ## Learning Outcomes
 
