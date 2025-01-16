@@ -69,5 +69,5 @@ Sign up for the [Vector private preview](https://aka.ms/aitour-data-azuresql-vec
 - [Azure SQL Essentials](https://aka.ms/aitour-data-azuresql-essentials)
 
 ## Demos and Code Samples
-- [**Session Demo**: TBD]()
+- [End to End RAG](https://aka.ms/aitour-data-azuresql-e2e)
 - [SQL AI Samples](https://aka.ms/aitour-data-azuresql-aisamples)
