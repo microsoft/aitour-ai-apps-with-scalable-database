@@ -37,6 +37,7 @@ Signup for the [DiskANN Preview](https://aka.ms/aitour-data-cosmosdb-diskannprev
 - [Enable and use pgvector on Azure Database for PostgreSQL](https://aka.ms/aitour-data-postgresql-pgvector)
 - [Azure AI extension on Azure Database for PostgreSQL](https://aka.ms/aitour-data-postgresql-azure-ai)
 - [Build AI Apps with Azure Database for PostgreSQL - Microsoft Learn](https://aka.ms/aitour-data-postgresql-build-ai-apps)
+- [GraphRAG Solution for Azure Database for PostgreSQL Blog](https://aka.ms/aitour-data-postgresql-graphrag-blog)
 
 **PostgreSQL Product Documentation**
 - [Azure Database for PostgreSQL - Flexible Server documentation](https://aka.ms/aitour-data-postgresql-docs)
@@ -50,6 +51,7 @@ Signup for the [DiskANN Preview](https://aka.ms/aitour-data-cosmosdb-diskannprev
 ## Demos and Code Samples
 
 - [**Session Demo**: RAG on PostgreSQL - Hybrid search on the PostgreSQL database table, using the pgvector extension](https://aka.ms/aitour-data-postgresql-demo)
+- [GraphRAG Solution for Azure Database for PostgreSQL Repo](https://aka.ms/aitour-data-postgresql-graphrag-repo)
 
 # Azure SQL Database
 
